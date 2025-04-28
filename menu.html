@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Super Bakers Menu</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <style>
+    body {
+      background-color: #fffef4;
+    }
+    .menu-section {
+      margin-top: 150px;
+      text-align: center;
+    }
+    .menu-section h1 {
+      font-size: 55px;
+      color: #e11d48;
+      font-family: 'mv boli', cursive;
+    }
+    .info-boxes {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin: 20px 0;
+    }
+    .info-box {
+      background: #fac031;
+      padding: 20px 30px;
+      font-weight: bold;
+      font-size: 20px;
+      color: #fff;
+      border-radius: 8px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    }
+    .menu-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .menu-card {
+      background-color: #fff;
+      border: 2px solid #fac031;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+    .menu-card:hover {
+      transform: scale(1.05);
+    }
+    .menu-card h3 {
+      color: #000;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .menu-card ul {
+      text-align: left;
+      padding-left: 20px;
+    }
+    .menu-card ul li {
+      padding: 5px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #fac031;
+      color: white;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<section class="menu-section">
+  <h1>Welcome to Super Bakers</h1>
+  <div class="info-boxes">
+    <div class="info-box">Free Delivery under 2 km</div>
+    <div class="info-box">Contact: +91-9876543210</div>
+    <div class="info-box">Birthday Party Space Available</div>
+    <div class="info-box">Special Discounts on Party Packs</div>
+  </div>
+
+  <div class="menu-container">
+    <div class="menu-card">
+      <h3>Pizza</h3>
+      <ul>
+        <li>Single Topping - ₹120/220/230</li>
+        <li>Veggie Delight - ₹200/260/320</li>
+        <li>Paneer Makhni - ₹280/340/460</li>
+        <li>Chicken Delight - ₹180/260/340</li>
+      </ul>
+    </div>
+    <div class="menu-card">
+      <h3>Momos</h3>
+      <ul>
+        <li>Steamed Momos - ₹60/90</li>
+        <li>Kurkure Gravy - ₹90</li>
+        <li>Paneer Momos - ₹90</li>
+      </ul>
+    </div>
+    <div class="menu-card">
+      <h3>Pasta</h3>
+      <ul>
+        <li>Red/White Sauce - ₹130</li>
+        <li>Cheesy Baked Pasta - ₹160</li>
+        <li>Paneer Pasta - ₹160</li>
+      </ul>
+    </div>
+    <div class="menu-card">
+      <h3>Burger</h3>
+      <ul>
+        <li>Aloo Tikki - ₹40</li>
+        <li>Cheese Burger - ₹70</li>
+        <li>Paneer Burger - ₹80</li>
+      </ul>
+    </div>
+    <div class="menu-card">
+      <h3>Drinks & Shakes</h3>
+      <ul>
+        <li>Cold Coffee - ₹60</li>
+        <li>Chocolate Shake - ₹80</li>
+        <li>Oreo Shake - ₹90</li>
+      </ul>
+    </div>
+    <div class="menu-card">
+      <h3>Ice Cream</h3>
+      <ul>
+        <li>Vanilla, Strawberry, Choco - ₹50/70</li>
+        <li>Extra Ice Cream in Shakes - ₹10</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 Super Bakers - Serving Happiness!
+</footer>
+
+</body>
+</html>
